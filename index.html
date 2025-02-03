@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="biblia-icon.png" type="image/x-icon">
+  <title>Canal estudo Bíblico Bonos</title>
+  <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body{
+          background-image: url("BR-wp1.jpg");
+        }
+        .login{
+          margin-top: 15%;
+          margin-left: 20%;
+        }
+        .plogin{
+          font-size: 18px;
+          color: gold;
+        }
+
+        input{
+          font-size: 20px;
+        }
+        .btn-login{
+          font-size: 20px;
+          padding: 10px;
+          border-radius: 15px;
+        }
+
+        .h1{
+          font-size: 20px;
+          color: rgb(255, 0, 0);
+        }
+        .menu{
+          display: none;
+          background-color: rgb(255, 0, 0);
+          width: 1080px;
+          height: 25px;
+        }
+        .amenu1{
+          cursor: pointer;
+          font-size: 25px;
+          color: aliceblue;
+        }
+        .amenu1:hover{
+          color: gold;
+        }
+        .amenu2{
+          cursor: pointer;
+          font-size: 25px;
+          color: aliceblue;
+        }
+        .amenu2:hover{
+          color: gold;
+        }
+        .amenu3{
+          cursor: pointer;
+          font-size: 25px;
+          color: aliceblue;
+        }
+        .amenu3:hover{
+          color: gold;
+        }
+        .btlovor{
+          display: none;
+          margin-top: 3%;
+          margin-left: 17%;
+          background-color: aqua;
+          width: fit-content;
+          height: fit-content;
+          padding: 10px;
+          border-radius: 8px;
+
+
+        }
+        .btescolha{
+          cursor: pointer;
+        }
+        .autoplay{
+          cursor: pointer
+        }
+        .lovoures{
+          display: none;
+          background-color: aqua;
+          width: fit-content;
+          height: fit-content;
+
+        }
+        .l1{
+          cursor: pointer;
+        }
+        .l1:hover{
+          color: gold;
+        }
+        .l2{
+          cursor: pointer;
+        }
+        .l2:hover{
+          color: gold;
+        }
+        .l3{
+          cursor: pointer;
+        }
+        .l3:hover{
+          color: gold;
+        }
+        .l4{
+          cursor: pointer;
+        }
+        .l4:hover{
+          color: gold;
+        }
+        .l5{
+          cursor: pointer;
+        }
+        .l5:hover{
+          color: gold;
+        }
+        .l6{
+          cursor: pointer;
+        }
+        .l6:hover{
+          color: gold;
+        }
+        .l7{
+          cursor: pointer;
+        }
+        .l7:hover{
+          color: gold;
+        }
+        .l8{
+          cursor: pointer;
+        }
+        .l8:hover{
+          color: gold;
+        }
+        .l9{
+          cursor: pointer;
+        }
+        .l9:hover{
+          color: gold;
+        }
+        .l10{
+          cursor: pointer;
+        }
+        .l10:hover{
+          color: gold;
+        }
+        .l11{
+          cursor: pointer;
+        }
+        .l11:hover{
+          color: gold;
+        }
+        .l12{
+          cursor: pointer;
+        }
+        .l12:hover{
+          color: gold;
+        }
+        .l13{
+          cursor: pointer;
+        }
+        .l13:hover{
+          color: gold;
+        }
+        .l14{
+          cursor: pointer;
+        }
+        .l14:hover{
+          color: gold;
+        }
+        .l15{
+          cursor: pointer;
+        }
+        .l15:hover{
+          color: gold;
+        }
+        .l16{
+          cursor: pointer;
+        }
+        .l16:hover{
+          color: gold;
+        }
+        .l17{
+          cursor: pointer;
+        }
+        .l17:hover{
+          color: gold;
+        }.l18{
+          cursor: pointer;
+        }
+        .l18:hover{
+          color: gold;
+        }
+        .l19{
+          cursor: pointer;
+        }
+        .l19:hover{
+          color: gold;
+        }
+        .l20{
+          cursor: pointer;
+        }
+        .l20:hover{
+          color: gold;
+        }
+        .l21{
+          cursor: pointer;
+        }
+        .l21:hover{
+          color: gold;
+        }
+        .l22{
+          cursor: pointer;
+        }
+        .l22:hover{
+          color: gold;
+        }
+        .l23{
+          cursor: pointer;
+        }
+        .l23:hover{
+          color: gold;
+        }
+        .l24{
+          cursor: pointer;
+        }
+        .l25:hover{
+          color: gold;
+        }
+        .l25{
+          cursor: pointer;
+        }
+        .l25:hover{
+          color: gold;
+        }
+        .l26{
+          cursor: pointer;
+        }
+        .l26:hover{
+          color: gold;
+        }
+        .l27{
+          cursor: pointer;
+        }
+        .l27:hover{
+          color: gold;
+        }
+        .l28{
+          cursor: pointer;
+        }
+        .l28:hover{
+          color: gold;
+        }
+        .l29{
+          cursor: pointer;
+        }
+        .l29:hover{
+          color: gold;
+        }
+        .l30{
+          cursor: pointer;
+        }
+        .l30:hover{
+          color: gold;
+        }
+        .l31{
+          cursor: pointer;
+        }
+        .l31:hover{
+          color: gold;
+        }
+        .l32{
+          cursor: pointer;
+        }
+        .l32:hover{
+          color: gold;
+        }
+        .l33{
+          cursor: pointer;
+        }
+        .l33:hover{
+          color: gold;
+        }
+        .l34{
+          cursor: pointer;
+        }
+        .l34:hover{
+          color: gold;
+        }
+        .l35{
+          cursor: pointer;
+        }
+        .l35:hover{
+          color: gold;
+        }
+        .l36{
+          cursor: pointer;
+        }
+        .l36:hover{
+          color: gold;
+        }
+        .l37{
+          cursor: pointer;
+        }
+        .l37:hover{
+          color: gold;
+        }
+        .l38{
+          cursor: pointer;
+        }
+        .l38:hover{
+          color: gold;
+        }
+        .l39{
+          cursor: pointer;
+        }
+        .l39:hover{
+          color: gold;
+        }
+        .l40{
+          cursor: pointer;
+        }
+        .l40:hover{
+          color: gold;
+        }
+        .l41{
+          cursor: pointer;
+        }
+        .l41:hover{
+          color: gold;
+        }
+        section{
+          background-image: url("mar.gif");
+          
+          padding: 15px;
+          width: 280px;
+          height: 250px;
+          margin-left: 25%;
+
+
+        }
+        .playpause{
+          cursor: pointer;
+          margin-top: 200px;
+        }
+        .voltar{
+          position: absolute;
+          cursor: pointer;
+          margin-left: 60px;
+          margin-top: 200px;
+          
+        }
+       
+        
+        .proximo{
+          position: absolute;
+          cursor: pointer;
+          margin-top: 200px;
+          margin-left: 200px;
+
+
+        }
+        .corrent{
+          position: absolute;
+          margin-top: -210px;
+          margin-left: 50px;
+          color: black;
+        }
+        .temp{
+          position: absolute;
+          margin-top: -210px;
+          margin-left: 100px;
+          color: black;
+        }
+        .stop{
+          cursor: pointer;
+        }
+        .sec{
+          display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+
+</head>
+<body>
+  <br>
+  <div align=center>Visualizações&nbsp;&nbsp;&nbsp;&nbsp;<img src='https://contador.s12.com.br/img-60WDd5ZZx07bww92-40.gif' border='0' alt='contador grátis'></a><script type='text/javascript' src='https://contador.s12.com.br/ad.js?id=60WDd5ZZx07bww92'></script></div>
+  <br>
+  <marquee behavior="" direction=""> Edu.App&nbsp;&nbsp;&nbsp;&nbsp;WhatsApp&nbsp;&nbsp;&nbsp;&nbsp;81984242796</marquee>
+  <br>
+        <h1 class="h1" align="center"></h1>
+        <br>
+        <div class="menu">
+          <tr>
+            <td>
+                 <a class="amenu1" href="https://avozqueclanodesrto.github.io/Canal-estudo-Biblico/"> Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="amenu2" href="conversando com Deus.html">Mensagem </a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="amenu3" href="#">Lovores</a>
+            </td>
+          </tr>
+
+        </div>
+        <div class="btlovor">
+          <tr>
+            <td>
+
+              <button class="btescolha"> Escolha</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="autoplay"> auto play</button>
+            </td>
+          </tr>
+        </div>
+              <section class="sec">
+              
+                <audio class="audio" src=""></audio> <button class="playpause"  >Play</button ><button class="voltar"  ><img  src="voltar.jpg" alt=""></button> <button class="proximo"><img  src="proximo.jpg" alt=""></button> <p class="corrent">0:00</p><p class="temp" >0:00</p> <button class="stop">Stop</button>
+                  
+              </section>
+  <div class="login">
+       <br>
+         <p class="plogin"> Coloque seu nome a baixo</p><br>
+         <input class="input" type="text"><br><br>
+         <button class="btn-login">Click</button>
+   </div>
+   <div class="lovoures">
+    <audio class="audio2" src="" controls></audio>
+    <div class="lista">
+   <p class="l1" >Quando o Mundo Cai ao Meu Redor</p>
+  <p class="l2" >Vai Valer a Pena</p>
+  <p class="l3" >Entre a Fé e a Razão</p>
+  <p class="l4">Maria Marçal Deserto</p>
+ <p class="l5">Rompendo em fé</p>
+ <p class="l6">GERSON RUFINO</p>
+ <p class="l7">Gratidão</p>
+ <p class="l8">ELE PASSOU LÁ EM CASA</p>
+ <p class="l9">Com Ele</p>
+ <p class="l10">A Melhor Escolha</p>
+ <p class="l11">O Amigo</p>
+ <p class="l12">Libertação</p>
+ <p class="l13">O Rei e o Ladrão</p>
+ <p class="l14">Sem Palavras</p>
+ <p class="l15">Deus e Eu</p>
+ <p class="l16">Geração Florida</p>
+ <p class="l17">Quase Morri</p>
+ <p class="l18">FRENTE A FRENTE</p>
+ <p class="l19">CONFIDENCIA</p>
+ <p class="l20">Sabe Filho</p>
+ <p class="l21">jó</p>
+ <p class="l22">É adorar</p>
+ <p class="l23">Sinceridade</p>
+ <p class="l24">Paulo e Silas</p>
+ <p class="l25">Fica Tranquilo</p>
+ <p class="l26">Que amor é esse</p>
+ <p class="l27">Minha essência </p>
+ <p class="l28">teu amor</p>
+ <p class="l29">Tua Presença</p>
+ <p class="l30">Além do Que Sonhei</p>
+ <p class="l31">Quem Era Eu</p>
+ <p class="l32">Liberta Me de Mim</p>
+ <p class="l33">Aquieta Minhalma</p>
+ <p class="l34">Quero Conhecer Jesus</p>
+ <p class="l35">Não Pare</p>
+ <p class="l36">ISADORA POMPEO</p>
+ <p class="l37">Ninguém Explica Deus</p>
+ <p class="l38">arvore Cortada</p>
+ <p class="l39">Me ajude a melhorar</p>
+ <p class="l40"></p>
+ <p class="l41"></p>
+   </div>
+    
+
+  
+</body>
+   
+<script>
+
+
+       var saudacoes= [
+        /*0*/"boa madrugada",
+  /*1*/"boa madrugada",
+  /*2*/"boa madrugada",
+  /*3*/"boa madrugada",
+  /*4*/"boa madrugada",
+  /*5*/"bom dia",
+  /*6*/"bom dia",
+  /*7*/"bom dia",
+  /*8*/"bom dia",
+  /*9*/"bom dia",
+  /*10*/"bom dia",
+  /*11*/"bom dia",
+  /*12*/"boa tarde",
+  /*13*/"boa tarde",
+  /*14*/"boa tarde",
+  /*15*/"boa tarde",
+  /*16*/"boa tarde",
+  /*17*/"boa tarde",
+  /*18*/"boa noite",
+  /*19*/"boa noite",
+  /*20*/"boa noite",
+  /*21*/"boa noite",
+  /*22*/"boa noite",
+  /*23*/"boa noite",
+       ]
+        
+       var lovor =[
+         /*1*/"Quando o Mundo Cai ao Meu Redor.mp3",
+         /*2*/"Vai Valer a Pena.mp3",
+         /*3*/"Entre a Fé e a Razão.mp3",
+         /*4*/"Maria Marçal Deserto.mp3",
+         /*5*/"Rompendo em fé.mp3",
+         /*6*/"GERSON RUFINO.mp3",
+         /*7*/"Gratidão.mp3",
+         /*8*/"ELE PASSOU LÁ EM CASA.mp3",
+         /*9*/"Com Ele.mp3",
+         /*10*/"A Melhor Escolha.mp3",
+         /*11*/"O Amigo.mp3",
+         /*12*/"Libertação.mp3",
+         /*13*/"O Rei e o Ladrão.mp3",
+         /*14*/"Sem Palavras.mp3",
+         /*15*/"Deus e Eu.mp3",
+         /*16*/"Geração Florida.mp3",
+         /*17*/"Quase Morri.mp3",
+         /*18*/"FRENTE A FRENTE.mp3",
+         /*19*/"CONFIDENCIA.mp3",
+         /*20*/"Sabe Filho.mp3",
+         /*21*/"jó.mp3",
+         /*22*/"É adorar.mp3",
+         /*23*/"Sinceridade.mp3",
+         /*24*/"Paulo e Silas.mp3",
+         /*25*/"Fica Tranquilo.mp3",
+         /*26*/"Que amor é esse.mp3",
+         /*27*/"Minha essência.mp3",
+         /*28*/"teu amor.mp3",
+         /*29*/"Tua Presença.mp3",
+         /*30*/"Além do Que Sonhei.mp3",
+         /*31*/"Quem Era Eu.mp3",
+         /*32*/"Liberta Me de Mim.mp3",
+         /*33*/"Aquieta Minhalma.mp3",
+         /*34*/"Quero Conhecer Jesus.mp3",
+         /*35*/"Não Pare.mp3",
+         /*36*/"ISADORA POMPEO.mp3",
+         /*37*/"Ninguém Explica Deus.mp3",
+         /*38*/"arvore Cortada.mp3",
+         /*39*/"Me ajude a melhorar",
+         /*40*/"",
+
+
+       ]
+
+       var data =  new Date()
+       var hora= data.getHours()
+
+
+
+
+         var login = document.querySelector(".login")
+         var btn = document.querySelector(".btn-login")
+          var h1 = document.querySelector(".h1")
+
+         btn.addEventListener("click", () => {
+
+          document.querySelector(".login").style.display="none"
+          document.querySelector(".menu").style.display="block"
+
+
+          var input = document.querySelector(".input").value
+           h1.innerHTML="Olá"+"   "+saudacoes[hora]+"  "+input+"  "+" seja muito bem vindo ao canal de estudo bíblico"
+           if ('speechSynthesis' in window) {
+              const utterance = new SpeechSynthesisUtterance(" Olá"+"  "+saudacoes[hora]  +input +"   "+"seja muito bem vindo ao  canal estudo bíblico" );
+               utterance.lang = 'pt-BR';
+  
+            speechSynthesis.speak(utterance);
+          } else {
+             alert('Desculpe, seu navegador não suporta a API Web Speech.');
+          }
+          var saud = setInterval(() => {
+            if ('speechSynthesis' in window) {
+              const utterance = new SpeechSynthesisUtterance( "esse site não tem link pois toda obra e para gloria de jesus então dÊ um gloria pra jesus" );
+               utterance.lang = 'pt-BR';
+  
+            speechSynthesis.speak(utterance);
+            clearInterval(saud)
+          } else {
+             alert('Desculpe, seu navegador não suporta a API Web Speech.');
+          }
+            
+          }, 3000);
+           var inf = setInterval(() => {
+            if ('speechSynthesis' in window) {
+              const utterance = new SpeechSynthesisUtterance( "na opção menu você volta para o devocional, na oção mensagem você esolhe a mensagem que escolher, na opção lovores você tem duas escolhas de escolher o lovor ou o autoplay" );
+               utterance.lang = 'pt-BR';
+  
+            speechSynthesis.speak(utterance);
+            clearInterval(inf)
+          } else {
+             alert('Desculpe, seu navegador não suporta a API Web Speech.');
+          }
+
+           }, 6000);
+
+
+
+         })
+
+         var audio2 = document.querySelector(".audio2")
+
+         document.querySelector(".l1").addEventListener("click", () =>{
+           audio2.src=lovor[0]
+
+
+         })
+         document.querySelector(".l2").addEventListener("click", () =>{
+          audio2.src=lovor[1]
+
+          
+          })
+          document.querySelector(".l3").addEventListener("click", () =>{
+
+            audio2.src=lovor[2]
+          
+           })
+           document.querySelector(".l4").addEventListener("click", () =>{
+
+            audio2.src=lovor[3]
+
+            })
+            document.querySelector(".l5").addEventListener("click", () =>{
+
+             audio2.src=lovor[4]
+
+            })
+             document.querySelector(".l6").addEventListener("click", () =>{
+           audio2.src=lovor[5]
+
+
+         })
+         document.querySelector(".l7").addEventListener("click", () =>{
+          audio2.src=lovor[6]
+
+          
+          })
+          document.querySelector(".l8").addEventListener("click", () =>{
+
+            audio2.src=lovor[7]
+          
+           })
+           document.querySelector(".l9").addEventListener("click", () =>{
+
+            audio2.src=lovor[8]
+
+            })
+            document.querySelector(".l10").addEventListener("click", () =>{
+
+             audio2.src=lovor[9]
+
+            })
+            
+            document.querySelector(".l11").addEventListener("click", () =>{
+           audio2.src=lovor[10]
+
+
+         })
+         document.querySelector(".l12").addEventListener("click", () =>{
+          audio2.src=lovor[11]
+
+          
+          })
+          document.querySelector(".l13").addEventListener("click", () =>{
+
+            audio2.src=lovor[12]
+          
+           })
+           document.querySelector(".l14").addEventListener("click", () =>{
+
+            audio2.src=lovor[13]
+
+            })
+            document.querySelector(".l5").addEventListener("click", () =>{
+
+             audio2.src=lovor[14]
+
+            })
+            
+            
+            document.querySelector(".l16").addEventListener("click", () =>{
+           audio2.src=lovor[15]
+
+
+         })
+         document.querySelector(".l17").addEventListener("click", () =>{
+          audio2.src=lovor[16]
+
+          
+          })
+          document.querySelector(".l18").addEventListener("click", () =>{
+
+            audio2.src=lovor[17]
+          
+           })
+           document.querySelector(".l19").addEventListener("click", () =>{
+
+            audio2.src=lovor[18]
+
+            })
+            document.querySelector(".l20").addEventListener("click", () =>{
+
+             audio2.src=lovor[19]
+
+            })
+            
+            document.querySelector(".l21").addEventListener("click", () =>{
+           audio2.src=lovor[20]
+
+
+         })
+         document.querySelector(".l21").addEventListener("click", () =>{
+          audio2.src=lovor[20]
+
+          
+          })
+          document.querySelector(".l22").addEventListener("click", () =>{
+
+            audio2.src=lovor[21]
+          
+           })
+           document.querySelector(".l23").addEventListener("click", () =>{
+
+            audio2.src=lovor[22]
+
+            })
+            document.querySelector(".l24").addEventListener("click", () =>{
+
+             audio2.src=lovor[23]
+
+            })
+            
+            document.querySelector(".l25").addEventListener("click", () =>{
+           audio2.src=lovor[24]
+
+
+         })
+         document.querySelector(".l26").addEventListener("click", () =>{
+          audio2.src=lovor[25]
+
+          
+          })
+          document.querySelector(".l27").addEventListener("click", () =>{
+
+            audio2.src=lovor[26]
+          
+           })
+           document.querySelector(".l28").addEventListener("click", () =>{
+
+            audio2.src=lovor[27]
+
+            })
+            document.querySelector(".l29").addEventListener("click", () =>{
+
+             audio2.src=lovor[28]
+
+            }) 
+            
+            document.querySelector(".l30").addEventListener("click", () =>{
+           audio2.src=lovor[29]
+
+
+         })
+         document.querySelector(".l31").addEventListener("click", () =>{
+          audio2.src=lovor[30]
+
+          
+          })
+          document.querySelector(".l32").addEventListener("click", () =>{
+
+            audio2.src=lovor[31]
+          
+           })
+           document.querySelector(".l33").addEventListener("click", () =>{
+
+            audio2.src=lovor[32]
+
+            })
+            document.querySelector(".l34").addEventListener("click", () =>{
+
+             audio2.src=lovor[33]
+
+            })
+             document.querySelector(".l35").addEventListener("click", () =>{
+           audio2.src=lovor[34]
+
+
+         })
+         document.querySelector(".l36").addEventListener("click", () =>{
+          audio2.src=lovor[35]
+
+          
+          })
+          document.querySelector(".l37").addEventListener("click", () =>{
+
+            audio2.src=lovor[36]
+          
+           })
+           document.querySelector(".l38").addEventListener("click", () =>{
+
+            audio2.src=lovor[37]
+
+            })
+            document.querySelector(".l39").addEventListener("click", () =>{
+
+             audio2.src=lovor[38]
+
+            })
+
+             var divbtn= document.querySelector(".btlovor")
+
+            document.querySelector(".amenu3").addEventListener("click" , () => {
+              
+                divbtn.style.display="block"
+            })
+
+
+
+        
+        var minu=""
+        var seg=""
+        var correntTimermin=""
+        var  correntTimerseg=""
+
+          
+        
+        var btescolha= document.querySelector(".btescolha")
+       btescolha.addEventListener("click", () =>{
+        divbtn.style.display="none"
+        document.querySelector(".lovoures").style.display="block"
+      
+      
+      
+        var time=  setInterval(() => {
+    hor= Math.floor(audio2.duration / 3600)
+  
+    minu= Math.floor(audio2.duration / 60)
+    seg= Math.floor((((audio2.duration / 60) % 1) *60))
+  
+    correntTimerhor= Math.floor((audio2.currentTime / 3600))
+    correntTimermin= Math.floor((audio2.currentTime / 60))
+     correntTimerseg= Math.floor(((((audio2.currentTime)/60)%1)*60) )
+  
+  
+      
+       var temp= correntTimermin+":"+correntTimerseg
+       var final= minu+":"+seg
+     if (temp==final) {
+
+      
+      
+
+        document.querySelector(".lovoures").style.display="none"
+       clearInterval(time)
+        audio2.src=""
+      }
+      
+         
+
+
+     }, 100);
+
+        })
+
+      var btaltop= document.querySelector(".autoplay")
+      btaltop.addEventListener("click", () =>{
+        document.querySelector(".sec").style.display="block"
+        document.querySelector(".btlovor").style.display="none"
+        divbtn.style.display="none"
+       
+
+      })
+
+
+
+
+   var troca =0
+   var hor1="";
+   var minu1= "";
+   var seg1="";
+   var correntTimermin1="";
+  var correntTimerseg1="";
+   var count=0
+   
+
+     var audio = document.querySelector(".audio")
+    var playpause= document.querySelector(".playpause")
+         
+       audio.src=lovor[troca]
+      playpause.addEventListener("click" , () => {       
+        if (count==0) {
+          count=1;
+          audio.play();
+          playpause.innerHTML="Pause";
+
+        } else {
+          count=0;
+          audio.pause()
+          playpause.innerHTML="Play";
+
+          
+        }         
+          
+        
+
+                var time1=  setInterval(() => {
+                  
+                hor1= Math.floor(audio.duration / 3600)
+    
+                  minu1= Math.floor(audio.duration / 60)
+                seg1= Math.floor((((audio.duration / 60) % 1) *60))
+    
+                 correntTimerhor1= Math.floor((audio.currentTime / 3600))
+                   correntTimermin1= Math.floor((audio.currentTime / 60))
+                     correntTimerseg1= Math.floor(((((audio.currentTime)/60)%1)*60) )
+    
+    
+        
+                    var tempo= correntTimermin1+correntTimerseg1
+                     var final= minu1+seg1
+
+                  var t=  document.querySelector(".temp").innerHTML=minu1+ ":"+seg1;
+                  var c=   document.querySelector(".corrent").innerHTML=correntTimermin1+":"+correntTimerseg1;
+
+
+                 if (t==c) {
+                      troca++
+                      
+                      audio.src=lovor[troca]
+                      audio.play()
+
+                     
+                  }
+                  
+    
+                      }, 1000);
+
+           
+     })
+     var voltar = document.querySelector(".voltar");
+     voltar.addEventListener("click", () => {
+         troca--
+         if (troca<=0) {
+          troca=0
+          audio.src=lovor[troca]
+                      audio.play( )
+         } else {
+          audio.src=lovor[troca]
+                      audio.play( )
+         }
+        
+         
+     })
+     var proximo = document.querySelector(".proximo");
+
+     proximo.addEventListener("click", () => {
+        troca++
+        if (troca>=39) {
+          troca=0
+          audio.src=lovor[troca]
+                      audio.play( )
+        } else {
+           audio.src=lovor[troca]
+                      audio.play()
+        }
+       
+        
+     })
+
+ var stope= document.querySelector(".stop")
+ stope.addEventListener("click", () =>{
+    troca=0
+    count=0
+    audio.src=lovor[0]
+    audio.pause()
+    playpause.innerHTML="Play";
+ document.querySelector(".sec").style.display="none"
+    
+
+
+
+ })
+
+
+
+ </script>
+
+
+</html>
