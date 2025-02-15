@@ -386,6 +386,14 @@
         .sec{
           display: none;
         }
+        .selcmensag{
+            display: none;
+            width: fit-content;
+            padding: 15px;
+            border-radius: 25px;
+            background-color: chartreuse;
+            margin-left: 50px;
+        }
 
 
 
@@ -422,10 +430,13 @@
         <div class="menu">
           <tr>
             <td>
-                 <a class="amenu1" href="https://avozqueclanodesrto.github.io/Canal-estudo-Biblico/"> Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="amenu2" href="conversando com Deus.html">Mensagem </a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="amenu3" href="#">Lovores</a>
+                 <a class="amenu1" href="https://avozqueclanodesrto.github.io/Canal-estudo-Biblico/"> Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="amenu2" href="#">Mensagem </a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="amenu3" href="#">Lovores</a>
             </td>
           </tr>
-
+              <div class="selcmensag">
+                <a href="conversando com Deus.html">conversando com Deus</a><br>
+                <a href="https://avozqueclanodesrto.github.io/biblia//proverbios/index.html">Livro de Provérbios</a>
+              </div>
         </div>
         <div class="btlovor">
           <tr>
@@ -1007,7 +1018,22 @@
 
 
 
+ }) 
+
+ var m1= document.querySelector(".amenu2")
+  var div= document.querySelector(".selcmensag")
+
+ m1.addEventListener("click",() =>{
+    document.querySelector(".selcmensag").style.display="block"
  })
+
+ div.addEventListener("mouseleave", () =>{
+    document.querySelector(".selcmensag").style.display="none"
+ })
+
+
+
+
 
 
 
