@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://avozqueclanodesrto.github.io/imagem/biblia-icon.png" type="image/x-icon">
+    <title>Mensagem de Deus </title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            background-image: url("https://avozqueclanodesrto.github.io/imagem/sarsa.gif");
+            background-repeat: no-repeat;
+        }
+        .h1{
+            color: aliceblue; 
+            margin-left: 5%;
+            margin-top: 30%;
+        
+        }
+        .btn {
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        .abri{
+            position: absolute;
+            background-color: aqua;
+            width: 100%;
+            height: 100vh;
+            margin-top: -350px;
+        }
+        .h2{
+            margin-top: 10%;
+            margin-left: 15%;
+        }
+        .btn2{
+            margin-top: 15%;
+            margin-left: 50%;
+            font-size: 25px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <audio class="audio1" src=""></audio>
+    <button class="btn">Iniciar</button>
+    
+    <h1 class="h1"></h1>
+    <div class="abri">
+         <h2 class="h2">Mensagem de Deus para você</h2>
+         <br>
+         <button class="btn2">Abri</button>
+    </div>
+</body>
+
+   <script>
+
+    var letra=[
+        /*1*/" Assim diz o Senhor, o teu Redentor, o Santo de Israel: Eu sou o Senhor teu Deus, que te ensina o que é útil, e te guia pelo caminho em que deves andar.",
+         /*2*/" Não fui eu que lhe ordenei? Seja forte e corajoso! Não se apavore, nem se desanime, pois o Senhor, o seu Deus, estará com você por onde você andar",
+        /*3*/"Tão-somente esforça-te e tem mui bom ânimo, para teres o cuidado de fazer conforme a toda a lei que meu servo Moisés te ordenou; dela não te desvies, nem para a direita nem para a esquerda, para que prudentemente te conduzas por onde quer que andares.",
+        /*4*/"Tocai a trombeta em Sião, e clamai em alta voz no meu santo monte; tremam todos os moradores da terra, porque o dia do SENHOR vem, já está perto;",
+         /*5*/"Sete sacerdotes levarão cada um uma trombeta de chifre de carneiro à frente da arca. No sétimo dia, marchem todos sete vezes ao redor da cidade, e os sacerdotes toquem as trombetas.",
+        /*6*/"Ainda assim, agora mesmo diz o Senhor: Convertei-vos a mim de todo o vosso coração; e isso com jejuns, e com choro, e com pranto. E rasgai o vosso coração, e não as vossas vestes, e convertei-vos ao Senhor vosso Deus; porque ele é misericordioso, e compassivo, e tardio em irar-se, e grande em benignidade, e se arrepende do mal. Quem sabe se não se voltará e se arrependerá, e deixará após si uma bênção, em oferta de alimentos e libação para o Senhor vosso Deus?",
+        /*7*/"Não sabeis que os injustos não hão de herdar o reino de Deus? Não erreis: nem os devassos, nem os idólatras, nem os adúlteros, nem os efeminados, nem os sodomitas, nem os ladrões, nem os avarentos, nem os bêbados, nem os maldizentes, nem os roubadores herdarão o reino de Deus.",
+         /*8*/"Jesus respondeu, e disse-lhe: Se alguém me ama, guardará a minha palavra, e meu Pai o amará, e viremos para ele, e faremos nele morada.",
+         /*9*/"Quem não me ama não guarda as minhas palavras; ora, a palavra que ouvistes não é minha, mas do Pai que me enviou.",
+        /*10*/"Eu sou a videira verdadeira, e meu Pai é o lavrador. Toda a vara em mim, que não dá fruto, a tira; e limpa toda aquela que dá fruto, para que dê mais fruto.",
+        /*11*/"Se vós estiverdes em mim, e as minhas palavras estiverem em vós, pedireis tudo o que quiserdes, e vos será feito.",
+        /*12*/"Mas vòs sois a geração eleita, o sacerdòcio real, a nação santa, o povo adquirido, para que anuncieis as virtudes daquele que vos chamou das trevas para a sua maravilhosa luz;",
+         /*13*/"Bem-aventurado o homem que sofre a tentação; porque, quando for provado, receberá a coroa da vida, a qual o Senhor tem prometido aos que o amam.",
+         /*14*/"Quem tem ouvidos, ouça o que o Espírito diz às igrejas: O que vencer não receberá o dano da segunda morte.",
+        /*15*/"",
+
+
+    ]
+
+    var fala=[
+        /*1*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/Isa/048/acf-isa-48-17.mp3",
+         /*2*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/nvi/Josh/001/nvi-josh-1-9.mp3",
+        /*3*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/Josh/001/acf-josh-1-7.mp3",
+        /*4*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/Joel/002/acf-joel-2-1.mp3",
+         /*5*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/nvi/Josh/006/nvi-josh-6-4.mp3",
+        /*6*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/Joel/002/acf-joel-2-12-14.mp3",
+        /*7*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/1Cor/006/acf-1cor-6-9-10.mp3",
+         /*8*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/John/014/acf-john-14-23.mp3",
+         /*9*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/John/014/acf-john-14-24.mp3",
+        /*10*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/John/015/acf-john-15-1-2.mp3",
+        /*11*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/John/015/acf-john-15-7.mp3",
+        /*12*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/1Pet/002/acf-1pet-2-9.mp3",
+         /*13*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/Jas/001/acf-jas-1-12.mp3",
+         /*14*/"https://audio-cdn.bibliaonline.com.br/7/Ricardo/acf/Rev/002/acf-rev-2-11.mp3",
+        /*15*/"",
+
+
+    ]
+
+        var con1=0;
+        var con2=100;
+
+
+        var audio1 = document.querySelector(".audio1")
+       var btn = document.querySelector(".btn")
+        var h1 = document.querySelector(".h1")
+
+
+        btn.addEventListener("click", () =>{
+            btn.textContent="Proximo"
+            if (con1==14) {
+                btn.textContent="Iniciar"
+                h1.innerHTML=""
+                con1=0
+            } else {
+             audio1.src=fala[con1]
+            audio1.play();
+            h1.innerHTML=letra[con1] 
+            con1++  
+            }
+
+            
+
+        })
+
+        var tela = document.querySelector(".abri")
+        var h2 = document.querySelector(".h2")
+        var btn2= document.querySelector(".btn2")
+
+
+        btn2.addEventListener("click", () =>{
+
+        
+            var abri = setInterval(() => {
+                h2.style.display="none"
+                btn2.style.display="none"
+               if (con2==0) {
+                clearInterval(abri)
+                tela.style.display="none"
+               } else {
+                con2--
+                tela.style.width= con2+"%"
+                
+               }
+            
+                
+            
+            }, 10);
+         
+        });
+
+   </script>
+
+
+
+</html>
